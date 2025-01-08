@@ -9,7 +9,7 @@ int solution(int a, int b, int n) {
     
     while(n >= a){
         o = n%a;
-        n = ((n)/a)*b;
+        n = (n/a)*b;
         answer += n;        
         n += o;
     }
